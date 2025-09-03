@@ -24,9 +24,9 @@ programa {
         limpa()
 
         se(escolhaZara==1){
-          escreva("Você escolheu o Atalho pelas ruínas. \n")
-          escreva("Um mutante te persegue, você consegue se defender, mas é arranhada e cai sobre destroços, ferindo a perna. \n")
-          leia(zaraAtalho)
+        escreva("Você escolheu o Atalho pelas ruínas. \n")
+        escreva("Um mutante te persegue, você consegue se defender, mas é arranhada e cai sobre destroços, ferindo a perna. \n")
+        leia(zaraAtalho)
         }senao
         escreva("Você escolheu a Estrada longa. \n")
         escreva("Um grupo de saqueadores aparece, você escapa, mas atingem sua perna de raspão com uma bala e você perde seus suprimentos.\n")
