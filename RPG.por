@@ -43,7 +43,7 @@ programa {
       escreva("3) Reforçar entradas, criar barreiras improvisadas e preparar armadilhas usando equipamentos militares. \n")
       escreva("Digite um número para completar as missões... ")
       leia(missaoKael)
-      escreva("Parabéns! Você compltou todas as missões! \n")
+      escreva("Parabéns! Você completou todas as missões! \n")
       leia(missaoKael)
       
       escreva("De repente, Zara aparece no armazém. \n")
