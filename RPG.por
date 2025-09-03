@@ -12,7 +12,7 @@ programa {
     escolha(personagem)
     {
       caso "Zara": 
-        escreva("Personagem escolhido: Zara! ")
+    escreva("Personagem escolhido: Zara! ")
         limpa()
 
         escreva("Local: Escola \n")
