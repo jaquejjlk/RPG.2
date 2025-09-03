@@ -1,9 +1,11 @@
 programa {
   funcao inicio() {
-    inteiro escolhaZara,missaoKael
+    inteiro escolhaZara
+    real missaoKael
     cadeia personagem
     logico zaraAtalho,zaraEstrada
 
+    escreva("Bem-vindo a Afterfall! \n")
     escreva("Escolha entre Zara ou Kael. \n")
     leia(personagem)
 
