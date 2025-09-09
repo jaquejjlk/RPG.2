@@ -78,10 +78,10 @@ programa {
       escreva("Digite um número para completar a missão... ")
       leia(missaoKael)
 
-      se(missaoKael<=5){
+      se(missaoKael<=10){
       danoKael=u.sorteia(1,8)
       escreva("Á uma entrada desconhecida! Você perdeu -",danoKael, " pontos de vida! \n")
-      }senao se(missaoKael<=10){
+      }senao se(missaoKael<=5){
       bonusKael=u.sorteia(5,15)
       escreva("Missão concluída! Você ganhou +", bonusKael ," pontos de vida. \n")
     }senao {
