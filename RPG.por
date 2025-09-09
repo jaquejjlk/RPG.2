@@ -1,11 +1,14 @@
 programa {
+
+  inclua biblioteca Util --> u
+  
   funcao inicio() {
-    inteiro escolhaZara
+    inteiro escolhaZara,escolhaKael
     real missaoKael
     cadeia personagem
     logico zaraAtalho,zaraEstrada
 
-    escreva("Bem-vindo a Afterfall! \n")
+    escreva("Bem-vindo a Afterfall!🏞 \n")
     escreva("Escolha entre Zara ou Kael. \n")
     leia(personagem)
 
@@ -14,9 +17,7 @@ programa {
     escolha(personagem)
     {
       caso "Zara": 
-      escreva("Personagem escolhido: Zara! ")
-      limpa()
-      
+      escreva("Personagem escolhido: Zara! \n")
       escreva("Local: Escola \n")
       escreva("MISSÃO: Zara precisa atravessar a cidade destruída e encontrar um abrigo seguro. \n")
       escreva("Escolha o caminho: \n")
@@ -35,20 +36,36 @@ programa {
         leia(zaraEstrada)
 		 		pare
 		 	caso "Kael": 
-      escreva ("Personagem escolhido: Kael! ")
-      limpa()
-      
+      escreva ("Personagem escolhido: Kael! \n")
       escreva("Local: Armazém \n")
       escreva("MISSÕES: \n")
       escreva("1) Limpar a área de possíveis mutantes. \n")
+      escreva("Digite um número para completar a missão... ")
+      leia(missaoKael)
+
       escreva("2) Mapear o armazém para ter vantagem estratégica. \n")
+      escreva("Digite um número para completar a missão... ")
+      leia(missaoKael)
+
       escreva("3) Reforçar entradas, criar barreiras improvisadas e preparar armadilhas usando equipamentos militares. \n")
-      escreva("Digite um número para completar as missões... ")
+      escreva("Digite um número para completar a missão... ")
       leia(missaoKael)
-      escreva("Parabéns! Você completou todas as missões! \n")
-      leia(missaoKael)
-      
-      escreva("De repente, Zara aparece no armazém. \n")
+
+      limpa()
+
+      escreva("---- AFTERFALL:PART II🏞 ----\n")
+      escreva("Do lado de fora, algo se movia. Você viu Zara tentando entrar no armazém. \n")
+      escreva("Escolha: \n")
+      escreva("1) Ajudar Zara\n")
+      escreva("2) Recusar Zara\n")
+      leia(escolhaKael)
+
+      limpa()
+
+      se(escolhaKael==1){
+        escreva("Você leva ela para dentro, trata sua perna e  ")
+      }
+
       pare
       caso contrario:
       escreva ("Personagem inválido. Digite Zara ou Kael. \n")
